@@ -6484,6 +6484,903 @@
         "老師怎麼幫他？",
         "作業什麼時候交？"
       ]
+    },
+    {
+      "id": "university-morning-class",
+      "title": "Đi học buổi sáng",
+      "topic": "學習",
+      "level": "A1",
+      "summary": "從起床、買早餐到進教室，練習學生生活、遲到與禮貌打招呼。",
+      "southernFocus": "dạ、em、nha 讓學生對老師講話更自然；trễ chút xíu 是南越日常很常聽到的說法。",
+      "status": "teacher draft",
+      "paragraphs": [
+        {
+          "vn": "Sáng nay em dậy hơi trễ, nên em chạy ra đầu hẻm mua bánh mì.",
+          "zh": "今天早上我起得有點晚，所以跑到巷口買麵包。"
+        },
+        {
+          "vn": "Cô bán hỏi: \"Lấy pate với trứng hả con?\"",
+          "zh": "老闆娘問：「要肝醬跟蛋嗎，孩子？」"
+        },
+        {
+          "vn": "Em nói: \"Dạ, cho em ít ớt thôi nha cô.\"",
+          "zh": "我說：「好的，辣椒少一點就好喔，阿姨。」"
+        },
+        {
+          "vn": "Tới lớp, em chào thầy rồi ngồi xuống cuối phòng.",
+          "zh": "到教室後，我跟老師打招呼，然後坐到教室後面。"
+        },
+        {
+          "vn": "Bạn kế bên hỏi em: \"Bài hôm nay khó hông?\"",
+          "zh": "旁邊的同學問我：「今天的內容難不難？」"
+        },
+        {
+          "vn": "Em cười: \"Hơi khó, nhưng nghe từ từ chắc hiểu.\"",
+          "zh": "我笑著說：「有點難，但慢慢聽應該會懂。」"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "đầu hẻm",
+          "meaning": "巷口",
+          "example": "Em mua bánh mì ở đầu hẻm."
+        },
+        {
+          "word": "cuối phòng",
+          "meaning": "教室或房間後面",
+          "example": "Em ngồi cuối phòng."
+        },
+        {
+          "word": "từ từ",
+          "meaning": "慢慢來",
+          "example": "Nghe từ từ chắc hiểu."
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "hơi + 形容詞",
+          "note": "表示有點，語氣自然不誇張。",
+          "example": "Bài hôm nay hơi khó."
+        },
+        {
+          "pattern": "chắc + 動詞",
+          "note": "表示應該、可能會。",
+          "example": "Nghe từ từ chắc hiểu."
+        }
+      ],
+      "questions": [
+        "主角早上為什麼買早餐很趕？",
+        "他跟老師打招呼後坐在哪裡？",
+        "用 hơi 造一句學校情境句。"
+      ]
+    },
+    {
+      "id": "night-market-after-class",
+      "title": "Đi chợ đêm sau giờ học",
+      "topic": "城市生活",
+      "level": "A2",
+      "summary": "下課後去夜市吃東西，練習點餐、問價格、跟朋友討論要不要買。",
+      "southernFocus": "bao nhiêu、mắc hông、ăn thử được không 都是夜市很實用的短句。",
+      "status": "teacher draft",
+      "paragraphs": [
+        {
+          "vn": "Tối thứ sáu, em với bạn đi chợ đêm sau giờ học.",
+          "zh": "星期五晚上，我跟朋友下課後去夜市。"
+        },
+        {
+          "vn": "Ở đó đông lắm, quán nào cũng thơm nên tụi em khó chọn.",
+          "zh": "那裡人很多，每一攤都很香，所以我們很難選。"
+        },
+        {
+          "vn": "Em hỏi cô bán: \"Một phần này bao nhiêu vậy cô?\"",
+          "zh": "我問老闆娘：「這一份多少錢啊，阿姨？」"
+        },
+        {
+          "vn": "Cô nói giá xong, bạn em nói nhỏ: \"Hơi mắc hông?\"",
+          "zh": "老闆娘說完價格後，我朋友小聲說：「是不是有點貴？」"
+        },
+        {
+          "vn": "Em cười rồi hỏi: \"Cho tụi em ăn thử chút xíu được không?\"",
+          "zh": "我笑著問：「可以讓我們試吃一點點嗎？」"
+        },
+        {
+          "vn": "Cuối cùng tụi em mua một phần rồi ngồi bên lề đường ăn chung.",
+          "zh": "最後我們買了一份，坐在路邊一起吃。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "chợ đêm",
+          "meaning": "夜市",
+          "example": "Tối nay mình đi chợ đêm nha."
+        },
+        {
+          "word": "ăn thử",
+          "meaning": "試吃",
+          "example": "Cho em ăn thử được không?"
+        },
+        {
+          "word": "lề đường",
+          "meaning": "路邊、人行道邊",
+          "example": "Tụi em ngồi bên lề đường."
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "quán nào cũng...",
+          "note": "表示每一間店都怎樣。",
+          "example": "Quán nào cũng thơm."
+        },
+        {
+          "pattern": "được không?",
+          "note": "放句尾表示可不可以，請求很常用。",
+          "example": "Ăn thử chút xíu được không?"
+        }
+      ],
+      "questions": [
+        "主角跟朋友什麼時候去夜市？",
+        "朋友覺得價格怎麼樣？",
+        "請造一句「được không?」的請求句。"
+      ]
+    },
+    {
+      "id": "barber-before-meeting-friends",
+      "title": "Cắt tóc trước khi gặp bạn",
+      "topic": "服務",
+      "level": "A2",
+      "summary": "男生去剪頭髮，練習說長度、瀏海、兩邊推短和不要剪太多。",
+      "southernFocus": "hai bên、phần mái、đừng cắt ngắn quá 是男生剪髮很重要的詞。",
+      "status": "teacher draft",
+      "paragraphs": [
+        {
+          "vn": "Chiều nay em hẹn bạn đi uống cà phê nên ghé tiệm cắt tóc trước.",
+          "zh": "今天下午我約朋友喝咖啡，所以先去理髮店。"
+        },
+        {
+          "vn": "Anh thợ hỏi: \"Em muốn cắt kiểu nào?\"",
+          "zh": "理髮師問：「你想剪什麼樣子？」"
+        },
+        {
+          "vn": "Em nói: \"Hai bên cắt ngắn, phần mái giữ lại chút nha anh.\"",
+          "zh": "我說：「兩邊剪短，瀏海留一點喔，哥。」"
+        },
+        {
+          "vn": "Anh thợ hỏi thêm: \"Có cạo sát hông?\"",
+          "zh": "理髮師又問：「要推很貼嗎？」"
+        },
+        {
+          "vn": "Em trả lời: \"Dạ, đừng sát quá, nhìn tự nhiên là được.\"",
+          "zh": "我回答：「不要太貼，看起來自然就好。」"
+        },
+        {
+          "vn": "Cắt xong, em soi gương thấy gọn hơn nhiều.",
+          "zh": "剪完後，我照鏡子覺得整齊很多。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "phần mái",
+          "meaning": "瀏海的部分",
+          "example": "Phần mái giữ lại chút nha."
+        },
+        {
+          "word": "cạo sát",
+          "meaning": "推很貼、剃很短",
+          "example": "Đừng cạo sát quá."
+        },
+        {
+          "word": "gọn",
+          "meaning": "俐落、整齊",
+          "example": "Tóc nhìn gọn hơn."
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "đừng + 動詞 + quá",
+          "note": "表示不要太怎樣。",
+          "example": "Đừng cắt ngắn quá."
+        },
+        {
+          "pattern": "là được",
+          "note": "表示這樣就可以了。",
+          "example": "Nhìn tự nhiên là được."
+        }
+      ],
+      "questions": [
+        "主角為什麼先去剪頭髮？",
+        "他希望瀏海怎麼處理？",
+        "用「đừng...quá」造一句。"
+      ]
+    },
+    {
+      "id": "asking-southern-pronunciation",
+      "title": "Hỏi cách nói miền Nam",
+      "topic": "學習",
+      "level": "A2",
+      "summary": "跟語言交換朋友確認南越說法，練習問自然不自然、請對方修正。",
+      "southernFocus": "Câu này miền Nam nói sao?、nghe tự nhiên hông? 是最值得熟背的學習句。",
+      "status": "teacher draft",
+      "paragraphs": [
+        {
+          "vn": "Tối nay em học tiếng Việt với một bạn ở Sài Gòn qua video call.",
+          "zh": "今晚我跟一位西貢朋友用視訊學越南語。"
+        },
+        {
+          "vn": "Em đọc một câu trong sách, nhưng bạn em nói câu đó hơi Bắc.",
+          "zh": "我讀了書上的一句話，但我朋友說那句有點北部。"
+        },
+        {
+          "vn": "Em hỏi: \"Câu này miền Nam nói sao cho tự nhiên?\"",
+          "zh": "我問：「這句南部怎麼說才自然？」"
+        },
+        {
+          "vn": "Bạn em sửa lại từng chữ rồi kêu em đọc chậm hơn.",
+          "zh": "朋友逐字幫我修正，然後叫我念慢一點。"
+        },
+        {
+          "vn": "Em hỏi tiếp: \"Em nói vậy nghe được hông?\"",
+          "zh": "我又問：「我這樣說聽起來可以嗎？」"
+        },
+        {
+          "vn": "Bạn em cười: \"Được rồi, nhưng nhớ nói mềm hơn chút.\"",
+          "zh": "朋友笑著說：「可以了，但記得講得再柔一點。」"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "hơi Bắc",
+          "meaning": "有點北部說法或口音",
+          "example": "Câu đó nghe hơi Bắc."
+        },
+        {
+          "word": "sửa lại",
+          "meaning": "修正、改一下",
+          "example": "Bạn sửa lại giúp em nha."
+        },
+        {
+          "word": "mềm hơn",
+          "meaning": "更柔、更自然",
+          "example": "Nói mềm hơn chút."
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "nói sao cho + 形容詞",
+          "note": "問怎麼說才會達到某種效果。",
+          "example": "Nói sao cho tự nhiên?"
+        },
+        {
+          "pattern": "nghe + 形容詞",
+          "note": "表示聽起來怎麼樣。",
+          "example": "Nghe tự nhiên hông?"
+        }
+      ],
+      "questions": [
+        "朋友覺得書上的句子有什麼問題？",
+        "主角問了哪句確認自然度？",
+        "請造一句「nghe...hông?」。"
+      ]
+    },
+    {
+      "id": "part-time-cafe-busy-shift",
+      "title": "Ca làm ở quán cà phê",
+      "topic": "工作",
+      "level": "A2",
+      "summary": "打工咖啡店尖峰時段，練習跟同事確認訂單、請客人稍等。",
+      "southernFocus": "đợi em chút、em kiểm tra lại、mang ra liền 是服務業很自然的南越口語。",
+      "status": "teacher draft",
+      "paragraphs": [
+        {
+          "vn": "Chiều nay quán cà phê đông khách nên em làm hơi mệt.",
+          "zh": "今天下午咖啡店客人很多，所以我工作有點累。"
+        },
+        {
+          "vn": "Có một anh khách hỏi: \"Ly của anh xong chưa em?\"",
+          "zh": "有一位男客人問：「我的飲料好了嗎？」"
+        },
+        {
+          "vn": "Em nói: \"Dạ, anh đợi em chút, em kiểm tra lại nha.\"",
+          "zh": "我說：「好的，哥等我一下，我確認一下喔。」"
+        },
+        {
+          "vn": "Em hỏi bạn làm chung: \"Bàn số ba có cà phê sữa đá chưa?\"",
+          "zh": "我問一起工作的朋友：「三號桌的冰牛奶咖啡有了嗎？」"
+        },
+        {
+          "vn": "Bạn nói: \"Có rồi, mang ra liền đi.\"",
+          "zh": "朋友說：「好了，馬上拿出去吧。」"
+        },
+        {
+          "vn": "Em đem ly ra và nói: \"Dạ, của anh đây, xin lỗi anh chờ hơi lâu.\"",
+          "zh": "我把飲料拿出去說：「好的，哥，這是你的，不好意思讓你等比較久。」"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "ca làm",
+          "meaning": "班、工作時段",
+          "example": "Hôm nay em có ca làm chiều."
+        },
+        {
+          "word": "kiểm tra lại",
+          "meaning": "再確認一次",
+          "example": "Em kiểm tra lại nha."
+        },
+        {
+          "word": "mang ra",
+          "meaning": "拿出去、端出去",
+          "example": "Mang nước ra bàn số ba."
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "đợi em chút",
+          "note": "服務場合請對方等一下，自然且禮貌。",
+          "example": "Dạ, anh đợi em chút nha."
+        },
+        {
+          "pattern": "hơi + 形容詞",
+          "note": "緩和語氣，適合道歉。",
+          "example": "Anh chờ hơi lâu."
+        }
+      ],
+      "questions": [
+        "客人問主角什麼？",
+        "主角如何請客人等一下？",
+        "用「kiểm tra lại」造一句工作情境句。"
+      ]
+    },
+    {
+      "id": "water-leak-landlord",
+      "title": "Báo chủ nhà bị dột nước",
+      "topic": "租屋",
+      "level": "A2",
+      "summary": "房間漏水時聯絡房東，練習描述問題、傳照片、約維修時間。",
+      "southernFocus": "bị dột、chủ nhà、qua coi giúp em 是租屋生活很常用的說法。",
+      "status": "teacher draft",
+      "paragraphs": [
+        {
+          "vn": "Tối qua trời mưa lớn, phòng em bị dột nước gần cửa sổ.",
+          "zh": "昨晚雨很大，我房間靠窗的地方漏水。"
+        },
+        {
+          "vn": "Sáng nay em chụp hình rồi nhắn cho cô chủ nhà.",
+          "zh": "今天早上我拍照後傳訊息給房東阿姨。"
+        },
+        {
+          "vn": "Em viết: \"Dạ cô ơi, phòng con bị dột chỗ cửa sổ.\"",
+          "zh": "我寫：「阿姨，房間窗戶那邊漏水。」"
+        },
+        {
+          "vn": "Em hỏi thêm: \"Chiều nay cô qua coi giúp con được không?\"",
+          "zh": "我又問：「今天下午阿姨可以過來幫我看一下嗎？」"
+        },
+        {
+          "vn": "Cô trả lời: \"Để cô kêu thợ qua, con lau nước trước nha.\"",
+          "zh": "房東回：「我叫師傅過去，你先把水擦一下喔。」"
+        },
+        {
+          "vn": "Em nói cảm ơn rồi dọn đồ ra xa cửa sổ.",
+          "zh": "我道謝後把東西搬離窗戶。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "bị dột",
+          "meaning": "漏水",
+          "example": "Phòng em bị dột."
+        },
+        {
+          "word": "chủ nhà",
+          "meaning": "房東",
+          "example": "Em nhắn cho cô chủ nhà."
+        },
+        {
+          "word": "kêu thợ",
+          "meaning": "叫師傅",
+          "example": "Cô kêu thợ qua giúp con."
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "bị + 狀況",
+          "note": "表示受到不好的影響。",
+          "example": "Phòng em bị dột nước."
+        },
+        {
+          "pattern": "qua coi giúp + 人稱",
+          "note": "請對方過來看一下並幫忙。",
+          "example": "Cô qua coi giúp con được không?"
+        }
+      ],
+      "questions": [
+        "房間哪裡漏水？",
+        "房東說要叫誰過來？",
+        "請用「bị」描述一個房間問題。"
+      ]
+    },
+    {
+      "id": "buying-secondhand-motorbike",
+      "title": "Xem xe máy cũ",
+      "topic": "交通",
+      "level": "A2",
+      "summary": "看二手機車時問年份、試騎、殺價和確認文件。",
+      "southernFocus": "xe cũ、chạy thử、bớt chút được không 是買二手物很常用的句子。",
+      "status": "teacher draft",
+      "paragraphs": [
+        {
+          "vn": "Cuối tuần em đi xem một chiếc xe máy cũ ở quận Bình Thạnh.",
+          "zh": "週末我去平盛郡看一台二手機車。"
+        },
+        {
+          "vn": "Anh bán xe nói xe còn chạy êm, mới thay nhớt tháng trước.",
+          "zh": "賣車的大哥說車還跑得很順，上個月剛換機油。"
+        },
+        {
+          "vn": "Em hỏi: \"Em chạy thử một vòng được không anh?\"",
+          "zh": "我問：「哥，我可以試騎一圈嗎？」"
+        },
+        {
+          "vn": "Chạy xong, em thấy xe ổn nhưng yên hơi cũ.",
+          "zh": "騎完後，我覺得車況可以，但椅墊有點舊。"
+        },
+        {
+          "vn": "Em nói: \"Anh bớt cho em chút được không? Yên xe hơi rách.\"",
+          "zh": "我說：「哥可以算我便宜一點嗎？椅墊有點破。」"
+        },
+        {
+          "vn": "Trước khi mua, em xin coi giấy tờ xe cho chắc.",
+          "zh": "買之前，我要求看車子的文件，確認比較安心。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "xe máy cũ",
+          "meaning": "二手機車",
+          "example": "Em muốn mua xe máy cũ."
+        },
+        {
+          "word": "chạy thử",
+          "meaning": "試騎、試開",
+          "example": "Em chạy thử được không?"
+        },
+        {
+          "word": "giấy tờ xe",
+          "meaning": "車輛文件",
+          "example": "Cho em coi giấy tờ xe nha."
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "bớt cho em chút",
+          "note": "請對方便宜一點，語氣比直接說 giảm giá 柔和。",
+          "example": "Anh bớt cho em chút được không?"
+        },
+        {
+          "pattern": "cho chắc",
+          "note": "表示為了確認、求安心。",
+          "example": "Em coi giấy tờ cho chắc."
+        }
+      ],
+      "questions": [
+        "賣車的人說上個月做了什麼？",
+        "主角覺得車哪裡有問題？",
+        "用「cho chắc」造一句。"
+      ]
+    },
+    {
+      "id": "watch-football-with-friends",
+      "title": "Xem bóng đá với bạn",
+      "topic": "朋友聊天",
+      "level": "A1",
+      "summary": "跟朋友看球賽，練習邀約、買零食、自然反應和稱讚。",
+      "southernFocus": "qua nhà tao/coi đá banh/đã quá 是朋友之間很生活化的說法，正式場合要避免 tao。",
+      "status": "teacher draft",
+      "paragraphs": [
+        {
+          "vn": "Tối nay bạn em rủ em qua nhà coi đá banh.",
+          "zh": "今晚朋友約我去他家看足球。"
+        },
+        {
+          "vn": "Em ghé tiệm tiện lợi mua nước ngọt với snack trước.",
+          "zh": "我先去便利商店買汽水和零食。"
+        },
+        {
+          "vn": "Tới nơi, bạn em nói: \"Vô đi, trận sắp bắt đầu rồi.\"",
+          "zh": "到的時候，我朋友說：「進來吧，比賽快開始了。」"
+        },
+        {
+          "vn": "Tụi em vừa ăn vừa coi, lâu lâu la lên vì đội mình sút hụt.",
+          "zh": "我們邊吃邊看，偶爾因為自己支持的隊射偏而叫出來。"
+        },
+        {
+          "vn": "Khi đội mình ghi bàn, cả phòng la: \"Đã quá!\"",
+          "zh": "當支持的隊進球時，整個房間大喊：「太爽了！」"
+        },
+        {
+          "vn": "Sau trận, tụi em ngồi nói chuyện thêm một chút rồi mới về.",
+          "zh": "比賽後，我們又坐著聊了一下才回家。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "coi đá banh",
+          "meaning": "看足球、看球賽",
+          "example": "Tối nay coi đá banh hông?"
+        },
+        {
+          "word": "sút hụt",
+          "meaning": "射偏、沒踢進",
+          "example": "Đội mình sút hụt rồi."
+        },
+        {
+          "word": "đã quá",
+          "meaning": "太爽、很過癮",
+          "example": "Trận này đã quá!"
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "vừa...vừa...",
+          "note": "表示一邊做 A 一邊做 B。",
+          "example": "Tụi em vừa ăn vừa coi."
+        },
+        {
+          "pattern": "sắp + 動詞 + rồi",
+          "note": "表示快要發生了。",
+          "example": "Trận sắp bắt đầu rồi."
+        }
+      ],
+      "questions": [
+        "朋友約主角去哪裡看球？",
+        "進球時大家喊了什麼？",
+        "用「vừa...vừa...」造一句。"
+      ]
+    },
+    {
+      "id": "late-night-pharmacy",
+      "title": "Mua thuốc lúc khuya",
+      "topic": "健康",
+      "level": "A2",
+      "summary": "晚上不舒服去藥局買藥，練習描述症狀、問用法和注意事項。",
+      "southernFocus": "đau họng、sổ mũi、uống sau khi ăn 是藥局與看診高頻詞。",
+      "status": "teacher draft",
+      "paragraphs": [
+        {
+          "vn": "Tối khuya em thấy đau họng và hơi sổ mũi.",
+          "zh": "深夜我覺得喉嚨痛，而且有點流鼻水。"
+        },
+        {
+          "vn": "Em tìm một nhà thuốc còn mở gần nhà.",
+          "zh": "我找了一間家附近還開著的藥局。"
+        },
+        {
+          "vn": "Cô dược sĩ hỏi: \"Con bị mấy ngày rồi?\"",
+          "zh": "藥師阿姨問：「你這樣幾天了？」"
+        },
+        {
+          "vn": "Em nói: \"Dạ mới từ chiều nay, con chưa sốt.\"",
+          "zh": "我說：「今天下午才開始，還沒有發燒。」"
+        },
+        {
+          "vn": "Cô đưa thuốc và dặn: \"Uống sau khi ăn, nếu sốt thì đi khám nha.\"",
+          "zh": "她拿藥給我並叮嚀：「飯後吃，如果發燒就去看醫生喔。」"
+        },
+        {
+          "vn": "Em cảm ơn rồi hỏi lại liều uống cho chắc.",
+          "zh": "我道謝後又確認一次劑量，求安心。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "đau họng",
+          "meaning": "喉嚨痛",
+          "example": "Em bị đau họng."
+        },
+        {
+          "word": "sổ mũi",
+          "meaning": "流鼻水",
+          "example": "Em hơi sổ mũi."
+        },
+        {
+          "word": "liều uống",
+          "meaning": "服用劑量",
+          "example": "Cho em hỏi liều uống nha."
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "bị + 症狀",
+          "note": "描述身體不舒服很常用。",
+          "example": "Con bị đau họng."
+        },
+        {
+          "pattern": "nếu...thì...",
+          "note": "表示如果...就...。",
+          "example": "Nếu sốt thì đi khám nha."
+        }
+      ],
+      "questions": [
+        "主角有哪些症狀？",
+        "藥師說如果發燒要做什麼？",
+        "用「nếu...thì...」造一句健康情境句。"
+      ]
+    },
+    {
+      "id": "library-study-seat",
+      "title": "Tìm chỗ học ở thư viện",
+      "topic": "學習",
+      "level": "A1",
+      "summary": "在圖書館找座位、問可不可以坐、請對方小聲一點。",
+      "southernFocus": "chỗ này có ai ngồi chưa?、nói nhỏ chút nha 是很實用的學生禮貌句。",
+      "status": "teacher draft",
+      "paragraphs": [
+        {
+          "vn": "Chiều nay em lên thư viện học vì phòng trọ hơi ồn.",
+          "zh": "今天下午我去圖書館讀書，因為租屋處有點吵。"
+        },
+        {
+          "vn": "Em thấy một bàn còn trống một ghế nên hỏi bạn bên cạnh.",
+          "zh": "我看到一張桌子還有一個空位，所以問旁邊的人。"
+        },
+        {
+          "vn": "Em hỏi: \"Chỗ này có ai ngồi chưa bạn?\"",
+          "zh": "我問：「這個位置有人坐了嗎？」"
+        },
+        {
+          "vn": "Bạn đó nói: \"Chưa, bạn ngồi đi.\"",
+          "zh": "那位同學說：「還沒，你坐吧。」"
+        },
+        {
+          "vn": "Một lúc sau, có nhóm bạn nói chuyện hơi lớn.",
+          "zh": "過了一會，有一群同學說話有點大聲。"
+        },
+        {
+          "vn": "Em nhẹ nhàng nói: \"Mấy bạn nói nhỏ chút nha, mình đang học.\"",
+          "zh": "我輕聲說：「你們小聲一點喔，我正在讀書。」"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "thư viện",
+          "meaning": "圖書館",
+          "example": "Em học ở thư viện."
+        },
+        {
+          "word": "còn trống",
+          "meaning": "還空著",
+          "example": "Ghế này còn trống hông?"
+        },
+        {
+          "word": "nói nhỏ",
+          "meaning": "小聲說",
+          "example": "Nói nhỏ chút nha."
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "có ai...chưa?",
+          "note": "問是否已經有人使用。",
+          "example": "Chỗ này có ai ngồi chưa?"
+        },
+        {
+          "pattern": "đang + 動詞",
+          "note": "表示正在做某事。",
+          "example": "Mình đang học."
+        }
+      ],
+      "questions": [
+        "主角為什麼去圖書館？",
+        "他問座位時怎麼說？",
+        "用「đang」造一句。"
+      ]
+    },
+    {
+      "id": "buying-gift-for-friend",
+      "title": "Mua quà sinh nhật cho bạn",
+      "topic": "購物",
+      "level": "A2",
+      "summary": "幫朋友買生日禮物，練習請店員推薦、說預算和包裝。",
+      "southernFocus": "tầm bao nhiêu tiền、gói quà giúp em、hợp với bạn nam 是買禮物必備句。",
+      "status": "teacher draft",
+      "paragraphs": [
+        {
+          "vn": "Ngày mai là sinh nhật bạn em nên em đi mua quà.",
+          "zh": "明天是我朋友生日，所以我去買禮物。"
+        },
+        {
+          "vn": "Em vô một tiệm nhỏ bán ví, áo thun và nước hoa.",
+          "zh": "我進了一間賣皮夾、T 恤和香水的小店。"
+        },
+        {
+          "vn": "Chị nhân viên hỏi: \"Em mua cho nam hay nữ?\"",
+          "zh": "女店員問：「你是買給男生還是女生？」"
+        },
+        {
+          "vn": "Em nói: \"Dạ, cho bạn nam, tầm ba trăm ngàn thôi chị.\"",
+          "zh": "我說：「給男生朋友，大概三十萬越盾就好，姊姊。」"
+        },
+        {
+          "vn": "Chị giới thiệu một cái ví đơn giản, nhìn khá hợp.",
+          "zh": "她推薦了一個簡單的皮夾，看起來滿適合。"
+        },
+        {
+          "vn": "Em mua cái đó và nhờ chị gói quà giúp em.",
+          "zh": "我買了那個，並請她幫我包裝禮物。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "quà sinh nhật",
+          "meaning": "生日禮物",
+          "example": "Em mua quà sinh nhật cho bạn."
+        },
+        {
+          "word": "tầm",
+          "meaning": "大概、約",
+          "example": "Tầm ba trăm ngàn thôi."
+        },
+        {
+          "word": "gói quà",
+          "meaning": "包裝禮物",
+          "example": "Chị gói quà giúp em nha."
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "cho + 對象",
+          "note": "表示買給誰、做給誰。",
+          "example": "Em mua cho bạn nam."
+        },
+        {
+          "pattern": "nhờ + 人 + 動詞 giúp",
+          "note": "請別人幫忙做某事。",
+          "example": "Em nhờ chị gói quà giúp."
+        }
+      ],
+      "questions": [
+        "主角買禮物給誰？",
+        "他的預算大概是多少？",
+        "用「nhờ...giúp」造一句。"
+      ]
+    },
+    {
+      "id": "first-day-at-new-gym",
+      "title": "Ngày đầu ở phòng gym mới",
+      "topic": "運動",
+      "level": "A2",
+      "summary": "第一次去新健身房，練習問器材、請教練示範、說自己想練哪裡。",
+      "southernFocus": "tập ngực、tập lưng、chỉ em với 是健身房自然請教句。",
+      "status": "teacher draft",
+      "paragraphs": [
+        {
+          "vn": "Hôm nay em tới phòng gym mới gần nhà để tập thử.",
+          "zh": "今天我到家附近的新健身房試練。"
+        },
+        {
+          "vn": "Lúc vô, em hơi ngại vì máy nào cũng lạ.",
+          "zh": "進去時我有點不好意思，因為每台器材都很陌生。"
+        },
+        {
+          "vn": "Em hỏi anh huấn luyện viên: \"Máy này tập lưng hay tập ngực vậy anh?\"",
+          "zh": "我問教練：「這台是練背還是練胸啊，哥？」"
+        },
+        {
+          "vn": "Anh nói: \"Cái này tập lưng, để anh chỉ em.\"",
+          "zh": "他說：「這台是練背，我來教你。」"
+        },
+        {
+          "vn": "Em tập thử vài hiệp, thấy đúng chỗ nhưng hơi đuối.",
+          "zh": "我試做了幾組，覺得有練到，但有點累。"
+        },
+        {
+          "vn": "Cuối buổi, em hỏi lịch tập sao cho không bị đau quá.",
+          "zh": "結束前，我問怎麼安排訓練才不會太痠痛。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "tập thử",
+          "meaning": "試練、體驗",
+          "example": "Em muốn tập thử một buổi."
+        },
+        {
+          "word": "huấn luyện viên",
+          "meaning": "教練",
+          "example": "Anh huấn luyện viên chỉ em."
+        },
+        {
+          "word": "đuối",
+          "meaning": "累、沒力",
+          "example": "Tập xong em hơi đuối."
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "để + 人 + 動詞",
+          "note": "表示讓某人來做某事。",
+          "example": "Để anh chỉ em."
+        },
+        {
+          "pattern": "sao cho + 結果",
+          "note": "問怎麼做才會有某種結果。",
+          "example": "Tập sao cho không bị đau quá?"
+        }
+      ],
+      "questions": [
+        "主角為什麼一開始有點不好意思？",
+        "教練說那台器材練哪裡？",
+        "用「để em...」造一句。"
+      ]
+    },
+    {
+      "id": "zalo-voice-message",
+      "title": "Gửi tin nhắn thoại trên Zalo",
+      "topic": "手機",
+      "level": "A2",
+      "summary": "用 Zalo 傳語音訊息，練習請對方重傳、說自己聽不清楚。",
+      "southernFocus": "tin nhắn thoại、nghe chưa rõ、gửi lại giúp em 是手機溝通很常用的句子。",
+      "status": "teacher draft",
+      "paragraphs": [
+        {
+          "vn": "Bạn em gửi một tin nhắn thoại trên Zalo, nhưng ngoài đường ồn quá.",
+          "zh": "我朋友在 Zalo 傳了一段語音訊息，但外面太吵。"
+        },
+        {
+          "vn": "Em nghe được vài chữ thôi, phần sau bị tiếng xe che mất.",
+          "zh": "我只聽到幾個字，後面被車聲蓋過去了。"
+        },
+        {
+          "vn": "Em nhắn lại: \"Mình nghe chưa rõ, bạn gửi lại giúp mình nha.\"",
+          "zh": "我回訊息：「我聽不太清楚，你再傳一次給我喔。」"
+        },
+        {
+          "vn": "Bạn em gửi lại chậm hơn và nói từng ý một.",
+          "zh": "朋友重新傳一次，講慢一點，而且一個意思一個意思講。"
+        },
+        {
+          "vn": "Lần này em hiểu rồi nên trả lời liền.",
+          "zh": "這次我聽懂了，所以馬上回覆。"
+        },
+        {
+          "vn": "Em cũng tập gửi một tin nhắn thoại ngắn bằng tiếng Việt.",
+          "zh": "我也練習用越南語傳一段短語音訊息。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "tin nhắn thoại",
+          "meaning": "語音訊息",
+          "example": "Bạn gửi tin nhắn thoại cho mình."
+        },
+        {
+          "word": "nghe chưa rõ",
+          "meaning": "聽不太清楚",
+          "example": "Mình nghe chưa rõ."
+        },
+        {
+          "word": "gửi lại",
+          "meaning": "再傳一次",
+          "example": "Bạn gửi lại giúp mình nha."
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "bị + 名詞 + 動詞",
+          "note": "表示被某個因素影響。",
+          "example": "Phần sau bị tiếng xe che mất."
+        },
+        {
+          "pattern": "giúp + 人稱",
+          "note": "放在請求句中表示請幫我。",
+          "example": "Bạn gửi lại giúp mình nha."
+        }
+      ],
+      "questions": [
+        "主角為什麼聽不清楚語音？",
+        "他請朋友怎麼做？",
+        "用「gửi lại」造一句。"
+      ]
     }
   ],
   "grammar": [
