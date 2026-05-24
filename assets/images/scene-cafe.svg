@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" role="img" aria-labelledby="title desc">
+  <title id="title">Southern Vietnamese cafe scene</title>
+  <desc id="desc">A warm street cafe table with iced coffee, notebook, and Saigon-style shopfront shapes.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9eef1"/>
+      <stop offset="1" stop-color="#fbfaf5"/>
+    </linearGradient>
+    <linearGradient id="coffee" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7b4d2a"/>
+      <stop offset="1" stop-color="#2f1a13"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#1d2e26" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="720" height="460" rx="28" fill="url(#sky)"/>
+  <path d="M0 320 C120 286 170 335 282 306 C398 275 462 224 720 252 L720 460 L0 460 Z" fill="#e8efea"/>
+  <path d="M0 370 C146 330 210 390 352 354 C493 319 578 332 720 300 L720 460 L0 460 Z" fill="#f3d7aa"/>
+  <g opacity=".6" stroke="#b9ccc5" stroke-width="2">
+    <path d="M78 0v460M174 0v460M270 0v460M366 0v460M462 0v460M558 0v460M654 0v460"/>
+    <path d="M0 74h720M0 148h720M0 222h720M0 296h720M0 370h720"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="72" y="118" width="202" height="178" rx="16" fill="#ffffff"/>
+    <rect x="90" y="142" width="166" height="34" rx="8" fill="#c7533f"/>
+    <rect x="98" y="194" width="50" height="86" rx="8" fill="#f7b267"/>
+    <rect x="164" y="194" width="74" height="86" rx="8" fill="#1f6f78"/>
+    <path d="M90 142 L116 108 H258 L256 142 Z" fill="#2f7d63"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <ellipse cx="455" cy="344" rx="172" ry="36" fill="#1d2e26" opacity=".18"/>
+    <rect x="292" y="250" width="326" height="34" rx="17" fill="#8a6a4a"/>
+    <path d="M325 282 h260 l-24 98 H349 Z" fill="#c8a56e"/>
+    <rect x="364" y="176" width="92" height="130" rx="14" fill="#ffffff"/>
+    <rect x="376" y="196" width="68" height="78" rx="10" fill="url(#coffee)"/>
+    <rect x="382" y="204" width="56" height="18" rx="9" fill="#f6e4c9" opacity=".9"/>
+    <path d="M456 216 h28 c22 0 24 42-2 45 h-26" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="390" cy="236" r="5" fill="#d9eef1"/>
+    <circle cx="420" cy="256" r="5" fill="#d9eef1"/>
+    <rect x="484" y="190" width="88" height="112" rx="10" fill="#fbfaf5"/>
+    <path d="M500 216 h54M500 240 h44M500 264 h58" stroke="#65746d" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="552" cy="206" r="10" fill="#f7b267"/>
+  </g>
+  <circle cx="610" cy="102" r="46" fill="#f7b267" opacity=".78"/>
+  <path d="M578 116 C592 86 625 83 642 112" fill="none" stroke="#c7533f" stroke-width="8" stroke-linecap="round"/>
+</svg>

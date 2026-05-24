@@ -1,0 +1,118 @@
+import { readFileSync, writeFileSync } from "node:fs";
+
+const path = "data/content.json";
+const content = JSON.parse(readFileSync(path, "utf8"));
+
+content.grammar = [
+  {
+    id: "pronouns-kinship",
+    title: "稱謂與人稱代詞",
+    pattern: "em / anh / chị / cô / chú / con / mình",
+    level: "A1",
+    note: "越南語人稱要依年齡、關係和禮貌選擇。南越日常常用 em 自稱或稱呼年輕者，對長輩可用 con，自然對話裡比 tôi 更常見。",
+    examples: ["Em tên là Steve.", "Con chào cô.", "Mình đi cà phê không?"],
+    tags: ["禮貌", "稱謂", "口語"],
+  },
+  {
+    id: "yes-no-questions",
+    title: "是非問句",
+    pattern: "... không? / ... chưa? / ... hả?",
+    level: "A1",
+    note: "không 問一般是不是，chưa 問完成了沒，hả 是南越口語很常見的確認語氣。",
+    examples: ["Anh tới chưa?", "Món này cay không?", "Em ở Đài Loan hả?"],
+    tags: ["問句", "口語"],
+  },
+  {
+    id: "polite-requests",
+    title: "禮貌請求",
+    pattern: "Cho em... / Cho em xin... / giúp em",
+    level: "A1",
+    note: "點餐、購物、服務場景一定要會。Cho em 是請給我/我要，cho em xin 比較禮貌，giúp em 表示麻煩你幫我。",
+    examples: ["Cho em một ly cà phê sữa đá.", "Cho em xin hóa đơn.", "Tính tiền giúp em."],
+    tags: ["禮貌", "服務", "點餐"],
+  },
+  {
+    id: "aspect-time",
+    title: "時間與狀態標記",
+    pattern: "đã / đang / sẽ / mới / vừa / sắp / rồi / chưa",
+    level: "A1",
+    note: "越南語不靠動詞變化表示時態，而是用時間詞和狀態詞。đang 是正在，rồi 是已經/了，chưa 是還沒或了嗎。",
+    examples: ["Em đang học tiếng Việt.", "Em gửi file rồi.", "Anh tới chưa?"],
+    tags: ["時態", "狀態", "文法"],
+  },
+  {
+    id: "modals",
+    title: "能力、想要、需要",
+    pattern: "muốn / cần / phải / được / có thể",
+    level: "A1",
+    note: "這些詞能快速組出大量生活句。muốn 是想要，cần 是需要，phải 是必須，được 是可以/得到/行。",
+    examples: ["Anh muốn ăn gì?", "Rẻ hơn được không?", "Em cần mua SIM."],
+    tags: ["文法", "生活句"],
+  },
+  {
+    id: "degree-adverbs",
+    title: "程度副詞",
+    pattern: "rất / lắm / quá / hơi / chút / chút xíu",
+    level: "A1",
+    note: "南越口語很常用 quá、hơi、chút xíu。quá 是太/很，hơi 是有點，chút xíu 是一下下或一點點。",
+    examples: ["Ngon quá!", "Em hơi đau bụng.", "Chờ em chút xíu."],
+    tags: ["程度", "口語", "南越"],
+  },
+  {
+    id: "sentence-particles",
+    title: "語尾詞",
+    pattern: "nha / ha / hả / hen / đó / thôi",
+    level: "A1",
+    note: "語尾詞是南越自然度關鍵。nha 柔化請求或提醒，hả 確認，hen/ha 帶親切確認，thôi 有而已/就好的感覺。",
+    examples: ["Từ từ nha.", "Em ở Đài Loan hả?", "Chừng mười phút thôi."],
+    tags: ["南越", "口語", "語氣"],
+  },
+  {
+    id: "classifiers",
+    title: "量詞與名詞分類",
+    pattern: "cái / con / ly / tô / dĩa / phần / ký",
+    level: "A1",
+    note: "買東西和點餐常用量詞。cái 泛用，ly 杯，tô 碗，dĩa 盤，phần 份，ký 公斤。",
+    examples: ["Một ly cà phê sữa đá.", "Ba chục ngàn một ký.", "Cho em một phần này."],
+    tags: ["量詞", "點餐", "購物"],
+  },
+  {
+    id: "comparisons",
+    title: "比較與選擇",
+    pattern: "hơn / nhất / hay / hoặc",
+    level: "A2",
+    note: "hơn 是更，nhất 是最，hay/or 是還是/或。購物、點餐和聊天都很常用。",
+    examples: ["Có size lớn hơn không?", "Món nào ngon nhất?", "Ít đường hay bình thường?"],
+    tags: ["比較", "選擇"],
+  },
+  {
+    id: "location-direction",
+    title: "位置與方向",
+    pattern: "ở / tới / đi / ra / vô / quẹo / gần / xa",
+    level: "A1",
+    note: "南越日常很常說 vô、ra、quẹo。vô 是進去，ra 是出去，quẹo 是轉彎。",
+    examples: ["Vô nhà ngồi chơi đi.", "Em ra liền.", "Quẹo phải."],
+    tags: ["南越", "方向", "交通"],
+  },
+  {
+    id: "negation",
+    title: "否定句",
+    pattern: "không / chưa / đừng / khỏi",
+    level: "A1",
+    note: "không 是否定，chưa 是還沒，đừng 是不要做某事，khỏi 是不用/免了，南越口語常見。",
+    examples: ["Không cay nha.", "Anh tới chưa?", "Khỏi cần."],
+    tags: ["否定", "口語"],
+  },
+  {
+    id: "southern-core-words",
+    title: "南越核心口語詞",
+    pattern: "vô / quẹo / xài / mắc / chút xíu / bữa nào / hen",
+    level: "A1-A2",
+    note: "這些詞讓你聽起來更像在南越生活。vô=進去，quẹo=轉，xài=用，mắc=貴，bữa nào=哪天，hen=喔/約定語氣。",
+    examples: ["Gói này đủ xài.", "Mắc quá.", "Bữa nào đi ăn nha."],
+    tags: ["南越", "詞彙", "口語"],
+  },
+];
+
+writeFileSync(path, `${JSON.stringify(content, null, 2)}\n`, "utf8");
+console.log(`Repaired ${content.grammar.length} grammar records.`);

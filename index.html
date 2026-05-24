@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>南越語學習工作台</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="topbar" aria-label="主選單">
+      <a class="brand" href="#home" aria-label="回首頁">
+        <span class="brand__mark">SV</span>
+        <span>南越語學習工作台</span>
+      </a>
+      <div class="topbar__links">
+        <a href="#home" data-route="home">首頁</a>
+        <a href="#southern-reader" data-route="audio">南越發音</a>
+        <details class="nav-group">
+          <summary>學習</summary>
+          <div class="nav-menu">
+            <a href="#pronunciation" data-route="pronunciation">發音基礎</a>
+            <a href="#dialogues" data-route="dialogues">對話課</a>
+            <a href="#grammar" data-route="grammar">文法</a>
+            <a href="pronouns.html">稱謂教練</a>
+          </div>
+        </details>
+        <details class="nav-group">
+          <summary>資料</summary>
+          <div class="nav-menu">
+            <a href="vocabulary.html">單詞</a>
+            <a href="phrases.html">詞句</a>
+            <a href="articles.html">文章</a>
+            <a href="map.html">地圖</a>
+          </div>
+        </details>
+        <details class="nav-group">
+          <summary>工具</summary>
+          <div class="nav-menu">
+            <a href="mistakes.html">錯誤雷達</a>
+            <a href="review.html">複習箱</a>
+            <a href="#rag" data-route="rag">RAG 問答</a>
+            <a href="#audio" data-route="audio">音檔</a>
+            <a href="#sources" data-route="sources">來源</a>
+          </div>
+        </details>
+      </div>
+    </nav>
+
+    <main>
+      <section id="home" class="app-page is-active">
+        <header class="hero">
+          <div class="hero__image" aria-hidden="true"></div>
+          <section class="hero__content">
+            <p class="eyebrow">Southern Vietnamese first</p>
+            <h1>用南越口音學真正會用的越南語</h1>
+            <p>
+              這是本機版南越語學習程式：把網路上的南越口音資料整理成可追蹤來源、可複習、
+              可錄音跟讀的學習流程。音檔先放聲調輪廓參考，真人南越錄音可逐步補進同一套資料庫。
+            </p>
+            <div class="hero__actions">
+              <a class="button button--primary" href="#dialogues">開始對話課</a>
+              <a class="button button--ghost" href="#pronunciation">練南越發音</a>
+            </div>
+          </section>
+        </header>
+
+        <section class="section section--dashboard">
+          <div class="section__head">
+            <p class="eyebrow">Today</p>
+            <h2>今日學習路線</h2>
+          </div>
+          <div class="dashboard-grid">
+            <article class="panel panel--wide">
+              <h3>15 分鐘南越口音暖身</h3>
+              <ol class="routine" id="routineList"></ol>
+            </article>
+            <article class="panel stat-panel">
+              <span class="stat" id="savedCount">0</span>
+              <span class="stat-label">已加入複習</span>
+            </article>
+            <article class="panel stat-panel">
+              <span class="stat" id="phraseCount">0</span>
+              <span class="stat-label">詞句資料</span>
+            </article>
+            <article class="panel profile-panel" id="profilePanel"></article>
+          </div>
+
+          <div class="scene-grid" aria-label="南越生活情境插圖">
+            <article class="scene-card">
+              <img src="assets/images/scene-cafe.svg" alt="咖啡店桌面與冰咖啡插圖" loading="lazy" />
+              <div>
+                <p class="eyebrow">Cafe</p>
+                <h3>咖啡店與朋友聊天</h3>
+                <p>練少糖、冰塊、坐一下、約朋友，對應飲料與聊天詞句。</p>
+              </div>
+            </article>
+            <article class="scene-card">
+              <img src="assets/images/scene-motorbike.svg" alt="南越巷子裡修機車插圖" loading="lazy" />
+              <div>
+                <p class="eyebrow">Street</p>
+                <h3>機車、巷子、問路</h3>
+                <p>補上 xì bánh、vá xe、hẻm、quẹo 等生活高頻情境。</p>
+              </div>
+            </article>
+            <article class="scene-card">
+              <img src="assets/images/scene-study-audio.svg" alt="越南語音檔與跟讀學習桌面插圖" loading="lazy" />
+              <div>
+                <p class="eyebrow">Audio</p>
+                <h3>TTS 跟讀與 RAG 知識庫</h3>
+                <p>把查到的詞句直接朗讀，搭配安全速度與複習箱。</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="quick-grid" id="quickLinks"></div>
+        </section>
+      </section>
+
+      <section id="pronunciation" class="app-page">
+        <section class="section page-hero">
+          <p class="eyebrow">Pronunciation</p>
+          <h2>南越發音訓練</h2>
+          <p>先建立耳朵的規則：南越口音不是北越音的變體錯誤，而是一套穩定、可預測的日常語音系統。</p>
+        </section>
+        <section class="section section--tight">
+          <div class="tone-grid" id="toneGrid"></div>
+          <div class="rule-grid" id="ruleGrid"></div>
+        </section>
+      </section>
+
+      <section id="dialogues" class="app-page">
+        <section class="section page-hero">
+          <p class="eyebrow">Dialogues</p>
+          <h2>日常對話課</h2>
+          <p>每課都用南越常見情境設計，先會開口，再回頭整理文法和發音。</p>
+        </section>
+        <section class="section section--tight">
+          <div class="lesson-layout">
+            <aside class="lesson-tabs" id="lessonTabs" aria-label="對話課列表"></aside>
+            <article class="lesson-panel" id="lessonPanel"></article>
+          </div>
+        </section>
+      </section>
+
+      <section id="grammar" class="app-page">
+        <section class="section page-hero">
+          <p class="eyebrow">Grammar Core</p>
+          <h2>一定要會的南越口語文法</h2>
+          <p>這裡放的是能立刻提高理解力和開口能力的核心句型：稱謂、問句、語尾詞、量詞、時間狀態和南越常用口語。</p>
+        </section>
+        <section class="section section--tight">
+          <div class="grammar-grid" id="grammarGrid"></div>
+        </section>
+      </section>
+
+      <section id="rag" class="app-page">
+        <section class="section page-hero">
+          <p class="eyebrow">Knowledge RAG</p>
+          <h2>語言知識庫 + RAG 問答</h2>
+          <p>
+            先用本機資料庫做檢索式問答：輸入問題後，系統會搜尋詞句、發音規則、對話課與來源，
+            再用找到的內容整理回答。之後可把同一批檢索結果接到 embeddings + LLM。
+          </p>
+        </section>
+        <section class="section section--tight">
+          <div class="rag-layout">
+            <article class="rag-panel">
+              <label class="search">
+                <span>問一個越南語問題</span>
+                <textarea id="ragQuestion" rows="4" placeholder="例如：南越口音差在哪？這句怎麼用？quẹo 是什麼意思？"></textarea>
+              </label>
+              <div class="rag-examples" id="ragExamples"></div>
+              <button class="button button--primary" id="ragAskButton" type="button">搜尋知識庫</button>
+            </article>
+            <article class="rag-answer" id="ragAnswer">
+              <p class="eyebrow">Answer</p>
+              <h3>先問一題</h3>
+              <p>這裡會顯示根據本機教材檢索出的回答與引用內容。</p>
+            </article>
+          </div>
+          <div class="rag-results" id="ragResults"></div>
+          <p class="tts-status" id="ragTtsStatus">RAG 引用卡可播放越南文片段，使用 VieNeu-TTS 與安全速度。</p>
+        </section>
+      </section>
+
+      <section id="audio" class="app-page">
+        <section class="section page-hero">
+          <p class="eyebrow">Audio Lab</p>
+          <h2>發音音檔與跟讀錄音</h2>
+          <p>
+            輸入越南文可以朗讀並產生南越聽法提示。主要朗讀改接本機 VieNeu-TTS；
+            需要對照時可直接開 Google 翻譯頁面，真人南越錄音日後可放進 <code>audio/native/</code> 串接。
+          </p>
+        </section>
+        <section class="section section--tight">
+          <article class="pronunciation-lab" id="southern-reader">
+            <div class="pronunciation-lab__input">
+              <p class="eyebrow">Southern Reader</p>
+              <h3>輸入越南文朗讀</h3>
+              <label class="search">
+                <span>越南文</span>
+                <textarea id="pronunciationInput" rows="5" placeholder="例如：Cho em hỏi chút nha. Anh nói chậm lại giúp em được không?"></textarea>
+              </label>
+              <div class="tts-controls">
+                <div class="search">
+                  <span>VieNeu 聲音</span>
+                  <strong>Xuân Vĩnh (Nam - Miền Nam)</strong>
+                </div>
+                <label class="search">
+                  <span>安全速度 <strong id="pronunciationRateLabel">1.00x</strong></span>
+                  <input id="pronunciationRate" type="range" min="0.95" max="1.05" step="0.01" value="1.00" />
+                  <span class="range-hints"><small>0.95x</small><small>1.00x</small><small>1.05x</small></span>
+                </label>
+              </div>
+              <p class="tts-status">目前固定使用南部男聲 <code>Xuân Vĩnh</code>。VieNeu 音檔維持原始輸出並快取；速度只做 0.95x-1.05x 安全播放微調。</p>
+              <div class="recorder-controls">
+                <button class="button button--primary" id="pronunciationPlayButton" type="button">VieNeu-TTS 朗讀</button>
+                <button class="button button--subtle" id="pronunciationFallbackButton" type="button">Google 翻譯</button>
+                <button class="button button--subtle" id="pronunciationStopButton" type="button">停止</button>
+              </div>
+              <p class="tts-status" id="pronunciationStatus">等待輸入。若尚未啟動 VieNeu-TTS 服務，朗讀時會顯示啟動提示。</p>
+            </div>
+            <aside class="pronunciation-lab__hint">
+              <p class="eyebrow">Southern Notes</p>
+              <h3>南越聽法提示</h3>
+              <div id="pronunciationHint"></div>
+            </aside>
+          </article>
+          <div class="audio-grid" id="audioGrid"></div>
+          <div class="recording-panel">
+            <div>
+              <h3 id="recordPrompt">Chọn một câu trong資料庫後練習</h3>
+              <p id="recordHint">到詞句資料庫選一張卡，按「練這句」，再錄下自己的版本。</p>
+            </div>
+            <div class="recorder-controls">
+              <button class="icon-button" id="recordButton" type="button" title="開始錄音">●</button>
+              <button class="icon-button" id="stopButton" type="button" title="停止錄音" disabled>■</button>
+              <audio id="playback" controls></audio>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="sources" class="app-page">
+        <section class="section page-hero">
+          <p class="eyebrow">Sources</p>
+          <h2>網路資料整合清單</h2>
+          <p>每個來源都標記用途與風險，新增教材時保留可追溯線索。</p>
+        </section>
+        <section class="section section--tight">
+          <div class="source-grid" id="sourceGrid"></div>
+          <article class="panel note-panel">
+            <h3>校對原則</h3>
+            <p>
+              網路資料可用來建立方向，但不能直接當作正確音檔。標準流程是：來源整理、例句改寫、
+              南越母語者錄音或確認、最後才標記為 verified southern。
+            </p>
+            <a class="button button--subtle" href="docs/research.md">開啟研究筆記</a>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>圖片：Ben Thanh Market, Ho Chi Minh City, public domain via Wikimedia Commons。教材資料請持續由南越母語者校對。</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

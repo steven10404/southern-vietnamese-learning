@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" role="img" aria-labelledby="title desc">
+  <title id="title">Motorbike alley scene</title>
+  <desc id="desc">A quiet Southern Vietnamese alley with a motorbike repair moment and tropical storefronts.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfaf5"/>
+      <stop offset="1" stop-color="#d9eef1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#1d2e26" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect width="720" height="460" rx="28" fill="url(#bg)"/>
+  <path d="M0 340 L720 250 L720 460 L0 460 Z" fill="#e7d3af"/>
+  <path d="M308 0 L268 460" stroke="#cae6eb" stroke-width="32"/>
+  <path d="M0 292 L720 202" stroke="#f2ddbc" stroke-width="18"/>
+  <g opacity=".54" stroke="#cbd9d4" stroke-width="2">
+    <path d="M56 0v460M140 0v460M224 0v460M392 0v460M476 0v460M560 0v460M644 0v460"/>
+    <path d="M0 86h720M0 172h720M0 258h720M0 344h720"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="54" y="116" width="176" height="152" rx="14" fill="#ffffff"/>
+    <path d="M54 148 h176 v-32 H54 Z" fill="#1f6f78"/>
+    <rect x="78" y="170" width="52" height="78" rx="8" fill="#f7b267"/>
+    <rect x="146" y="170" width="52" height="78" rx="8" fill="#e8efea"/>
+    <circle cx="108" cy="298" r="18" fill="#2f7d63"/>
+    <circle cx="176" cy="298" r="18" fill="#2f7d63"/>
+  </g>
+  <g filter="url(#shadow)">
+    <ellipse cx="460" cy="352" rx="184" ry="38" fill="#1d2e26" opacity=".15"/>
+    <circle cx="363" cy="334" r="46" fill="#17201b"/>
+    <circle cx="363" cy="334" r="24" fill="#d9eef1"/>
+    <circle cx="554" cy="334" r="46" fill="#17201b"/>
+    <circle cx="554" cy="334" r="24" fill="#d9eef1"/>
+    <path d="M378 302 C426 254 491 252 536 300" fill="none" stroke="#c7533f" stroke-width="22" stroke-linecap="round"/>
+    <path d="M428 268 L461 220 L507 220" fill="none" stroke="#17201b" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M510 222 L570 202" stroke="#17201b" stroke-width="12" stroke-linecap="round"/>
+    <rect x="436" y="236" width="88" height="36" rx="18" fill="#f7b267"/>
+    <path d="M424 312 h80" stroke="#17201b" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="548" y="94" width="110" height="154" rx="14" fill="#ffffff"/>
+    <path d="M548 128 h110 v-34 H548 Z" fill="#2f7d63"/>
+    <rect x="570" y="154" width="66" height="72" rx="8" fill="#f4dfd8"/>
+  </g>
+  <circle cx="612" cy="74" r="22" fill="#f7b267"/>
+  <path d="M592 80 C604 61 626 62 637 79" fill="none" stroke="#c7533f" stroke-width="6" stroke-linecap="round"/>
+</svg>

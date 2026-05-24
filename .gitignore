@@ -1,0 +1,28 @@
+# Local browser/test profiles
+.chrome-*/
+.edge-profile/
+
+# Runtime logs
+*.log
+.server.*.log
+.vieneu.*.log
+
+# Local backups
+backups/
+
+# Python/TTS runtime artifacts
+tts/vieneu-local/.venv/
+tts/vieneu-local/cache/
+tts/vieneu-local/__pycache__/
+**/__pycache__/
+*.pyc
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.old

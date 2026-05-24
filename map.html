@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>南越情境地圖 | 南越語學習工作台</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="topbar" aria-label="主選單">
+      <a class="brand" href="index.html#home" aria-label="回首頁">
+        <span class="brand__mark">SV</span>
+        <span>南越語學習工作台</span>
+      </a>
+      <div class="topbar__links">
+        <a href="index.html#home">首頁</a>
+        <a href="index.html#southern-reader">南越發音</a>
+        <details class="nav-group">
+          <summary>學習</summary>
+          <div class="nav-menu">
+            <a href="index.html#pronunciation">發音基礎</a>
+            <a href="index.html#dialogues">對話課</a>
+            <a href="index.html#grammar">文法</a>
+            <a href="pronouns.html">稱謂教練</a>
+          </div>
+        </details>
+        <details class="nav-group">
+          <summary>資料</summary>
+          <div class="nav-menu">
+            <a href="vocabulary.html">單詞</a>
+            <a href="phrases.html">詞句</a>
+            <a href="articles.html">文章</a>
+            <a class="is-active" href="map.html">地圖</a>
+          </div>
+        </details>
+        <details class="nav-group">
+          <summary>工具</summary>
+          <div class="nav-menu">
+            <a href="mistakes.html">錯誤雷達</a>
+            <a href="review.html">複習箱</a>
+            <a href="index.html#rag">RAG 問答</a>
+            <a href="index.html#audio">音檔</a>
+            <a href="index.html#sources">來源</a>
+          </div>
+        </details>
+      </div>
+    </nav>
+
+    <main>
+      <section class="section page-hero">
+        <p class="eyebrow">Saigon Scenario Map</p>
+        <h1 class="page-title">南越生活情境地圖</h1>
+        <p>用地點切入教材。點一個情境，就能跳到相關對話、文章、詞句和單詞。</p>
+      </section>
+      <section class="section section--tight">
+        <div class="scenario-layout">
+          <article class="scenario-map" id="scenarioMap" aria-label="情境地圖"></article>
+          <article class="scenario-panel" id="scenarioPanel"></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>地圖是本機教材索引，不代表真實比例；情境會連到文章、詞句、單詞和對話課。</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
