@@ -757,22 +757,18 @@ textarea {
 
 .article-lines {
   display: grid;
-  gap: 0;
-  padding: 6px 14px;
+  gap: 2px;
+  padding: 10px 14px;
   border-radius: 8px;
   background: var(--soft);
 }
 
 .article-line {
   display: grid;
-  gap: 3px;
+  gap: 2px;
   margin: 0;
-  padding: 10px 0;
+  padding: 7px 0;
   background: transparent;
-  border-bottom: 1px solid rgba(31, 111, 120, 0.1);
-}
-
-.article-line:last-child {
   border-bottom: 0;
 }
 
@@ -780,13 +776,13 @@ textarea {
   display: block;
   color: #14231d;
   font-size: 1.08rem;
-  line-height: 1.55;
+  line-height: 1.52;
 }
 
 .article-line .translation {
   display: block;
   color: #4a5d55;
-  line-height: 1.55;
+  line-height: 1.5;
 }
 
 .article-study-grid {
