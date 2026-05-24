@@ -44,6 +44,7 @@ const defaultVieneuVoiceId = "Xuân Vĩnh (Nam - Miền Nam)";
 const pronunciationRateMin = 0.95;
 const pronunciationRateMax = 1.05;
 const pronunciationRateDefault = 1;
+const isStaticHosted = /github\.io$/i.test(window.location.hostname);
 
 const companionMessages = [
   "Cho em hỏi chút nha.\n意思：我想問一下喔。",
@@ -1299,6 +1300,14 @@ function renderPronunciationHints() {
 function renderPronunciationLab() {
   renderPronunciationRateLabel();
   renderPronunciationHints();
+  if (isStaticHosted) {
+    const button = document.querySelector("#pronunciationPlayButton");
+    if (button) {
+      button.textContent = "本機版支援 VieNeu-TTS";
+      button.title = "GitHub Pages 不能執行本機 TTS 後端，請用桌面捷徑或 localhost 開啟。";
+    }
+    setPronunciationStatus("GitHub Pages 是靜態網站，南越 TTS 需用本機版；這裡可用 Google 翻譯作為備援。");
+  }
 }
 
 function getPronunciationText() {
@@ -1377,6 +1386,10 @@ async function playPronunciationWithVieneu() {
   const text = getPronunciationText();
   if (!text) {
     setPronunciationStatus("請先輸入越南文。");
+    return;
+  }
+  if (isStaticHosted) {
+    setPronunciationStatus("GitHub Pages 不能啟動本機 VieNeu-TTS，請按「Google 翻譯」或用桌面捷徑開 localhost 版本。");
     return;
   }
   stopPronunciationTts();
@@ -1686,7 +1699,6 @@ function playArticleAudio(articleId, button) {
     stopArticleAudio();
     return;
   }
-
   stopArticleAudio();
   resetArticleAudioButton();
   activeArticleAudioButton = button;
@@ -1872,6 +1884,12 @@ function playRagTtsSnippet(index, button) {
   if (activeRagAudioButton === button && button.classList.contains("is-playing")) {
     stopRagTts();
     setRagTtsStatus("已停止 RAG 引用播放。");
+    return;
+  }
+
+  if (isStaticHosted) {
+    window.open(googleTranslateTextUrl(text), "_blank", "noopener,noreferrer");
+    setRagTtsStatus("GitHub Pages 不能啟動本機 VieNeu-TTS，已改開 Google 翻譯頁面。");
     return;
   }
 
