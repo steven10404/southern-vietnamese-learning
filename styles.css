@@ -701,6 +701,11 @@ textarea {
   align-items: start;
 }
 
+.article-card__head h3 {
+  font-size: 1.75rem;
+  line-height: 1.18;
+}
+
 .article-card__tools {
   display: grid;
   justify-items: end;
