@@ -751,6 +751,10 @@ textarea {
   color: var(--teal);
 }
 
+.article-focus p {
+  color: #40544c;
+}
+
 .article-lines {
   display: grid;
   gap: 0;
@@ -774,12 +778,14 @@ textarea {
 
 .article-line strong {
   display: block;
+  color: #14231d;
   font-size: 1.08rem;
   line-height: 1.55;
 }
 
 .article-line .translation {
   display: block;
+  color: #4a5d55;
   line-height: 1.55;
 }
 
